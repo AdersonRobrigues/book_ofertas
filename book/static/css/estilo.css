@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    font-family: " Verdana", sans-serif;
+    font-size: 25px;
+    margin-top: 8px;
+    margin-bottom: 6px;
+    color: #ffffff80;    
+}
+
+th{
+    font-family: " Verdana", sans-serif; 
+    font-size: 12px;
+}
+
+td{
+    font-family: " Verdana", sans-serif; 
+    font-size: 12px;
+}
+
+.modal-header{
+    background-color: #001127; 
+}
+
+.dropdown-menu{
+   background-color: #C4C8DB;
+   font-family: " Verdana", sans-serif;
+   font-size: 15px;   
+}
+
+.dropdown-item{
+    background-color: #C4C8DB;
+    font-family: " Verdana", sans-serif;
+    color: #066A61   
+}
+
+.modal-title{
+    font-family: " Verdana", sans-serif;
+    font-size: 16px;
+    color:#d4d8dd;      
+}
+
+.form{
+    font-family: " Verdana", sans-serif;
+    font-size: 16px;
+    color:#912576;      
+}
+
+
+p{
+    color:#001127;
+    text-align:justify;
+    font-family: " Verdana", sans-serif;
+    font-size: 15px;    
+}
+.body_home{
+background-image: url("/static/img/img_fnd_merito2.png");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+#home{
+    font-size: 30px;
+    font-family: verdana,"sans-serif";
+    margin: 1%;    
+}
+
+.entrar{
+    font-size: 20px;
+    font-family: verdana,"sans-serif";
+    margin: 1%; 
+    
+}
+.row{
+    background-color: #010D1F;
+    border-bottom-style:solid;
+}
+.body_login{
+    margin: 0;
+    padding:0;
+    font-family: verdana,"sans-serif";
+    background-image: url("/static/img/img_fnd_merito2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#navbar{
+    color: #066A61;     
+}
+.navbar-brand{
+    color: #066A61; 
+    margin: 0;
+    padding: 0; 
+}
+
+.sair{
+    color: #066A61;
+    font-size: 16px;
+    font-family: verdana,"sans-serif";
+}
+
+#navbar_body{
+    background-color: #010D1F; 
+    border-bottom: #ffffff50;
+    border-style: solid;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+}
+.card{
+    background-color: #ffffff70;
+    padding: 30px;
+    border-radius: 0% 8% 0% 8%;
+    box-shadow: 3px 3px 1px 0px #00000060;
+}
+.login_h3{
+    text-align: center;
+    margin-bottom: 20px;
+    color:#222535;
+}
+
+.label-float input{
+    width: 100%;
+    padding: 7px 7px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px #00000060;
+    background-color:#ffffff20;
+    outline: none;
+    min-width: 180px;
+    font-size:16px;
+    transition: all .3s ease-out;
+    border: 0;
+}
+label-float{
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.label-float label{
+    color:#222535
+}
+
+.button1{
+    background-color:transparent;
+    border-color: #222535;
+    padding:7px;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all .5s ease-out;
+    font-size:16px;
+    color: #222535;
+}
+
+.button1:hover{
+    background-color:#222535;
+    color:white;
+}
+
+.justify-center{
+    display:flex;
+    justify-content: center;
+}
+
+#navbarNavDropdown{
+    justify-content: center;
+}
+
+tbody{
+    overflow-y: scroll;
+    height: 100px;
+    }
+
+.btn-success{
+    transition: all .5s ease-out;
+    font-size:14px;
+    font-family: verdana,"sans-serif";
+}
+
+
+.btn-info{
+    transition: all .5s ease-out;
+    font-size:10px;
+    font-family: verdana,"sans-serif";
+}
+
+.btn-danger{
+    transition: all .5s ease-out;
+    font-size:10px;
+    font-family: verdana,"sans-serif";
+}
+
+.btn-secondary{
+    transition: all .5s ease-out;
+    font-size:10px;
+    font-family: verdana,"sans-serif";
+}
+
+.btn-warning{
+    transition: all .5s ease-out;
+    font-size:10px;
+    font-family: verdana,"sans-serif";
+}
+
+
+thead{
+    font-size:1px;
+    font-family: verdana,"sans-serif"; 
+}
+
