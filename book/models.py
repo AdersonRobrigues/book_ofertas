@@ -287,7 +287,7 @@ class BookVendaMerc(models.Model):
     tp_preco = models.CharField(max_length=5, choices=TP_PRECO_CHOICE, blank=True, null=True)
     preco = models.DecimalField(max_digits=9, decimal_places=2, verbose_name="Preço")
     submer = models.CharField(max_length=2, choices=SUB_CHOICE)
-    checked = models.BooleanField("Checked",default=False)
+    checked = models.BooleanField("Checked", default=False)
     criado_em = models.DateTimeField(auto_now_add=True)
     editado_em = models.DateTimeField(auto_now=True)
 
